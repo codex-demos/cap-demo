@@ -1,0 +1,9 @@
+.profile-pic {
+  border-radius: 50%;
+  border: 3px solid #ccc;
+}
+
+#aboutMe {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
