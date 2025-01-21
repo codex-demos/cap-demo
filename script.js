@@ -40,7 +40,9 @@ if (toggleProjectsBtn) {
 
 if (aboutBtn) {
   aboutBtn.addEventListener("click", function () {
-    alert("Thanks for checking out my About Me section!");
+    document.getElementById("output").innerText =
+      "Hello! Thanks for stopping by!";
+    aboutBtn.style.display = "none";
   });
 }
 
@@ -82,3 +84,5 @@ function renderProjects() {
     projectsContainer.appendChild(colDiv);
   });
 }
+
+document.getElementById("year").innerText = new Date().getFullYear();
